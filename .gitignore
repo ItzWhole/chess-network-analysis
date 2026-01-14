@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (large datasets)
+data/raw/*.csv
+data/raw/*.pgn
+*.csv
+*.pgn
+
+# Exception: Keep country mappings (small, essential file)
+!data/country_mappings.csv
+
+# Old messy code (not needed in clean repo)
+redes/
+
+# Keep processed data structure
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+
+# Results
+results/figures/*.png
+results/figures/*.pdf
+results/tables/*.csv
+
+# Keep results structure
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
