@@ -68,7 +68,7 @@ pip install -r requirements.txt
 - GeoPy - Geographic distance calculations
 - SciPy - Statistical analysis
 
-## 🚀 Usage
+## Usage
 
 ### 1. Data Preprocessing
 
