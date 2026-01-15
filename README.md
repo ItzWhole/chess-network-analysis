@@ -202,29 +202,6 @@ This project was developed as part of a network science course, applying complex
 - Geographic constraints on network formation
 - Temporal evolution of individual player networks
 
-## 📝 Citation
-
-If you use this code or methodology in your research, please cite:
-
-```bibtex
-@misc{chess_network_analysis_2024,
-  author = {Matías Laborero},
-  title = {Chess Network Analysis: Elo Rating and Network Topology},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/ItzWhole/chess-network-analysis}
-}
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Areas for extension:
-- Temporal network analysis (dynamic networks)
-- Community detection algorithms
-- Predictive modeling of match outcomes
-- Integration with online chess platforms (Chess.com, Lichess)
-- Machine learning on network features
-
 
 ## 👤 Author
 
