@@ -2,7 +2,7 @@
 
 A comprehensive network analysis investigating the relationship between chess player Elo ratings and network structure in competitive chess games.
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes over 2.7 million chess games (2000-2023) to understand how player skill levels (Elo ratings) influence network topology, connectivity patterns, and geographic dispersion of competitive matches.
 
@@ -14,14 +14,14 @@ This project analyzes over 2.7 million chess games (2000-2023) to understand how
 - **Geographic Dispersion**: Higher-rated players travel greater distances for matches, reflecting the global nature of elite competition
 - **Scale-Free Properties**: The network follows a power-law degree distribution (γ ≈ 2.3), characteristic of scale-free networks
 
-## 🎯 Research Objectives
+## Research Objectives
 
 1. Evaluate network assortativity with respect to player Elo ratings
 2. Analyze the relationship between Elo and centrality measures (degree and eigenvector centrality)
 3. Investigate geographic dispersion patterns as a function of player skill level
 4. Characterize network evolution through player career progression
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 chess-network-analysis/
@@ -42,7 +42,7 @@ chess-network-analysis/
 └── README.md                   # This file
 ```
 
-## 🔧 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -57,7 +57,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 - Python 3.8+
 - NetworkX - Network analysis
@@ -120,7 +120,7 @@ from src.geographic_analysis import calculate_geographic_dispersion
 dispersion = calculate_geographic_dispersion(df_filtered)
 ```
 
-## 📈 Key Analyses
+## Key Analyses
 
 ### Network Topology (2000-2020)
 
@@ -147,13 +147,13 @@ The network shows positive assortativity with respect to Elo ratings:
 - **Hub Definition**: Top 5% by degree centrality
 - **Hub Average Elo**: 2506 (vs. 2203 overall)
 
-## 🌍 Geographic Dispersion
+## Geographic Dispersion
 
 Analysis reveals that higher-rated players travel significantly more:
 - Players with Elo > 2600 travel ~2-3x farther on average
 - Weak but significant correlation between topological and geographic distance (ρ ≈ 0.15, p < 0.0001)
 
-## 📊 Visualizations
+## Visualizations
 
 The repository includes code to generate:
 - Degree distribution plots (linear, log, log-log scales)
@@ -187,13 +187,13 @@ The repository includes code to generate:
 - **Correlation**: Spearman rank correlation (non-parametric)
 - **Significance Testing**: Mann-Whitney U test for hub comparison
 
-## 📚 Data Sources
+## Data Sources
 
 - **Chess Games**: [Ajedrez Data](https://www.ajedrezdata.com/) - Over 4.2 million games (filtered to 2.7M)
 - **Geographic Data**: [SimpleMaps World Cities Database](https://simplemaps.com/data/world-cities)
 - **Country Codes**: ISO 3166-1 alpha-3 standard
 
-## 🎓 Academic Context
+## Academic Context
 
 This project was developed as part of a network science course, applying complex network theory to real-world competitive chess data. The analysis demonstrates:
 
@@ -203,13 +203,13 @@ This project was developed as part of a network science course, applying complex
 - Temporal evolution of individual player networks
 
 
-## 👤 Author
+## Author
 
 **Matías Laborero**
 - GitHub: [@ItzWhole](https://github.com/ItzWhole)
 - Project: [chess-network-analysis](https://github.com/ItzWhole/chess-network-analysis)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - FIDE (Fédération Internationale des Échecs) for the Elo rating system
 - Ajedrez Data for providing comprehensive chess game databases
